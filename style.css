@@ -227,14 +227,44 @@ footer span {
   cursor: pointer;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
+  .big {
+    width: 80vw;
+    height: 85vh;
+
+    background-color: var(--form-background);
+
+    margin-left: 80px;
+  }
+
+  header .log-in {
+    padding-top: 80px;
+    padding-left: 80px;
+  }
+
+  header p {
+    justify-content: center;
+    padding-left: 80px;
+  }
+
+  main {
+    margin-top: 120px;
+    padding-left: 160px;
+  }
+
+  footer {
+    padding-left: 160px;
+  }
+}
+
+@media (min-width: 1320px) {
   body {
-    background: url('assets/side-image.jpg') no-repeat top right;
+    background: url('assets/side-image.jpg') no-repeat right;
     background-color: var(--background);
   }
 
   .big {
-    width: 572px;
+    width: 480px;
     height: 512px;
 
     background-color: var(--form-background);
