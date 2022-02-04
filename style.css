@@ -60,6 +60,11 @@ main label {
   color: var(--text-base);
 }
 
+main input[type='password']::-ms-clear,
+main input::-ms-reveal {
+  display: none;
+}
+
 main input[type='email'] {
   width: 335px;
   height: 44px;
