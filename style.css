@@ -75,10 +75,15 @@ main input[type='email'] {
   border-radius: 4px;
 
   color: var(--text-base);
+
+  background: url('assets/mail.svg') no-repeat scroll 7px;
+  padding-left: 40px;
 }
 
-main input[type='email'] {
-  background: url('assets/mail.svg') no-repeat scroll 7px;
+main input[type='email']:focus-within {
+  border: 1px solid #ffc632;
+
+  background: url('assets/mail-focus.svg') no-repeat scroll 7px;
   padding-left: 40px;
 }
 
